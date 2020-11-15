@@ -1,0 +1,513 @@
+*
+{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.main
+{
+    display: flex;
+    flex-direction:row;
+    height: 150;
+}
+
+#home,#about,#skills,#contact
+{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+}
+#home
+{
+    background-image:url('billie1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+#home h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke;
+    position: absolute;
+    top:90vh;
+    left:45vw;
+
+
+}
+#home-1
+{
+    height:110vh;
+    background-color: black;
+    margin-top:100vh;
+}
+
+#knowmore{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#home-1 h3
+{
+    font-family:'Roboto', sans-serif;
+    color: grey;
+    font-size:30px;
+    position: absolute;
+    margin-left: 2vw;
+    margin-top:6vh;
+}
+
+#home-1 h2
+{
+    font-family:'Roboto', sans-serif;
+    color: grey;
+    font-size:30px;
+    position: absolute;
+    margin-left: 2vw;
+    margin-top:56vh;
+}
+
+
+.iframe-container1
+{
+    position: absolute;
+    top:114vh;
+    left:2vw;
+
+
+}
+
+.iframe-container2
+{
+    position: absolute;
+    top:114vh;
+    left:34vw;
+
+
+}
+.iframe-container3
+{
+    position: absolute;
+    top:114vh;
+    left:66vw;
+
+
+}
+.iframe-container4
+{
+    position: absolute;
+    top:164vh;
+    left:2vw;
+
+
+}
+.iframe-container5
+{
+    position: absolute;
+    top:164vh;
+    left:34vw;
+}
+
+.iframe-container6
+{
+    position: absolute;
+    top:164vh;
+    left:66vw;
+}
+
+
+#about
+{
+    background-image:url('bills2.jpg');
+    left:100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#about-1
+{
+    height:110vh;
+    background-color: black;
+    margin-top:100vh;
+}
+
+#about-1 iframe
+{
+    top: 40vh;
+    left:60vw;
+    position: relative;
+}
+
+#about-1 h1
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 10vh;
+    writing-mode: vertical-rl;
+    margin-right: 15px;
+    top:114vh;
+    position: absolute;
+}
+
+#about-1 p
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size:2px;
+    margin-right: 40vw;
+    margin-left:10vw;
+    position: absolute;
+}
+#skills
+{
+    background-image: url('bills3.jpg');
+    left:200vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#albums-1
+{
+    height:110vh;
+    background-color: black;
+    margin-top:100vh;
+
+}
+#albums-1 h2
+{
+  position: absolute;
+  font-family:'Roboto', sans-serif;
+    color: grey;
+    font-size:30px;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top:30vh;
+
+}
+
+#skills p
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    color:whitesmoke;
+    right:40vw;
+    left: 10vw;
+    position: absolute;
+    font-size:4vh;
+    top:35vh;
+
+}
+#skills h1
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 10vh;
+    writing-mode: vertical-rl;
+    margin-top:28vh;
+    position: absolute;
+
+}
+#about h1
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 10vh;
+    writing-mode: vertical-rl;
+    margin-right: 15px;
+    margin-top:28vh;
+    position: absolute;
+
+}
+
+#about p
+    {
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: whitesmoke;
+        font-size: 4vh;
+        margin-left:10vw;
+        margin-top:28vh;
+        position: absolute;
+    
+    }
+
+
+#A1
+{
+    background-image: url('A1.jpg');
+    position: absolute;
+    width:15vw;
+    height:30vh;
+    left:14vw;
+    top:145vh;
+
+}
+
+
+#A2
+{
+    background-image: url('A2.jpg');
+    position: absolute;
+    width:15vw;
+    height:30vh;
+    left:40vw;
+    top:145vh;
+
+}
+#A3
+{
+    background-image: url('A4.jpg');
+    position: absolute;
+    width:15vw;
+    height:30vh;
+    left:65vw;
+    top:145vh;
+
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.movleft
+{
+    position: absolute;
+    top: 50%;
+    left: 4vw;
+    z-index: 999;
+}
+.movright
+{
+    position: absolute;
+    top: 50%;
+    left:92vw;
+}
+#mover
+{
+    width:100vw;
+    height:10vh;
+    position: absolute;
+    display: flex;
+    border-radius: 0px;
+    box-shadow: 5px 8px 15px rgba(0,0,0,0.1);
+    background-color:black;
+
+    
+}
+.one,.two,.three 
+{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mover a
+{
+    color: cadetblue;
+    font-size: 20px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+     'Helvetica Neue', sans-serif;
+
+
+}
+#foot{
+    background-image: linear-gradient(to bottom right, green, blue);
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+     'Helvetica Neue', sans-serif; 
+     width:100vw;
+     height: 10vh;
+     text-align: center;
+     color: whitesmoke;
+     padding-top:3vh;
+}
+
+@media only screen and (max-width:600px)
+{   
+    
+    #mover
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .mover a 
+    {
+        font-size: 15px;
+    }
+    
+    .one,.two,.three 
+    {
+        font-size: 12px;
+    }
+    .movright
+    {
+        top:12vh;
+        left: 80vw;
+        z-index: 1;
+    }
+    .movleft
+    {
+        top: 85vh;
+        left: 15vw;
+    }
+    a
+    {
+        font-size: 40px;
+    }    
+    .text1
+    {
+        top:15vh;
+        left:10vw;
+        height:40vh;
+        width: 80vw;
+    }
+    .picture1
+    {
+        top:60vh;
+        width: 80vw;
+        height:30vh;
+    }
+    .picture1 p  
+    {
+        font-size: 18px;
+    }
+    #knowmore{
+        font-size: 20px;
+    }
+    #home-1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .iframe-container3,.iframe-container6{
+        display: none;
+    }
+    .iframe-container2 iframe,#about-1 iframe,.iframe-container1 iframe,.iframe-container4 iframe,.iframe-container5 iframe{
+        width:95vw;
+        height: 40vh;
+    }
+    .iframe-container2{
+        top: 154vh;
+        left: 2vw;
+    }
+    .iframe-container4{
+        top:194vh;
+        left: 2vw;
+
+    }
+    .iframe-container5{
+        top:234vh;
+        left: 2vw;
+    }
+    #home-1,#about-1,#albums-1{
+        height: 200vh;
+        color: black;
+    }
+    #about h1{
+    color: whitesmoke;
+    font-size: 20px;
+    writing-mode: horizontal-tb;
+    margin-left: 15px;
+    margin-top:12vh;
+    position: absolute;
+
+    }
+    #about p
+    {
+        color: whitesmoke;
+        font-size: 16px;
+        margin-left:10vw;
+        margin-top:28vh;
+        position: absolute;
+    
+    }
+    #about-1 h1{
+        display: none;
+    }
+    #about-1 p{
+        margin-right: 10vw;
+        text-align: justify;
+    }
+    #about-1 iframe{
+        position: absolute;
+        top:164vh;
+        left: 2vw;
+    }
+    #skills p{
+        font-size: 16px;
+    }
+    #skills h1{
+        font-size: 20px;
+    writing-mode: horizontal-tb;
+    margin-left: 15px;
+    margin-top:12vh;
+    position: absolute;
+    }
+    #albums-1 h2
+{
+ 
+    font-size:30px;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top:10vh;
+
+}
+
+#A1
+{
+    background-image: url('A1.jpg');
+    position: absolute;
+    width:60vw;
+    height:30vh;
+    left:14vw;
+    top:120vh;
+
+}
+
+
+#A2
+{
+    background-image: url('A2.jpg');
+    position: absolute;
+    width:60vw;
+    height:30vh;
+    left:14vw;
+    top:190vh;
+
+}
+#A3
+{
+    background-image: url('A4.jpg');
+    position: absolute;
+    width:60vw;
+    height:30vh;
+    left:14vw;
+    top:155vh;
+
+}
+#home{
+    background-image: url(billi1mob.png);
+}
+#about{
+    background-image: url(bills2mob.png);
+}
+#skills{
+    background-image: url(bills3mob.png);
+}
+#foot{
+    position:absolute;
+    top:274vh;
+}
+}
+
